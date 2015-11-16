@@ -1,0 +1,6 @@
+{{#extend 'layout.html'}}
+<form method='POST' action='first'>
+    <input type='text' placeholder='Enter name' name='person'/>
+    <input type='submit' value='Go!'/>
+</form>
+{{#=BEAUTIFY(response._vars)}}

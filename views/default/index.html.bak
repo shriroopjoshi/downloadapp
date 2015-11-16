@@ -1,0 +1,10 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+            {{=message}}
+            Number of visits: {{=counter}}
+        </h1>
+    </body>
+</html>

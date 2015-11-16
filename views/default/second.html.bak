@@ -1,0 +1,5 @@
+{{extend 'layout.html'}}
+<h4>
+    Hello {{=session.person_name}}
+</h4>
+{{=BEAUTIFY(response._vars)}}
